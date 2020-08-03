@@ -3,10 +3,10 @@ digitList = [("###", "# #", "# #", "# #", "###"), (" # ", " # ", " # ", " # ", "
 def sevensegment():
     segment = input()
     if segment.isdigit(): 
-    #
-    templist = []
+       templist = []
     
-    for ch in segment:
-        templist.append(digitlist[ch])
-    for n in range(5):
-        print(templist[(n)] + " ")
+        for ch in segment:
+            templist.append(digitlist[ch])
+        for n in range(5):
+            print(templist[(n)] + " ")
+    else: print("invalid entry")
