@@ -8,5 +8,7 @@ def sevensegment():
         for ch in segment:
             templist.append(digitlist[ch])
         for n in range(5):
-            print(templist[(n)] + " ")
+            sevenseg = [tup[n] for tup in templist]
+            print(sevenseg)
+            
     else: print("invalid entry")
