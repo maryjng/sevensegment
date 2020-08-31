@@ -9,7 +9,7 @@ def sevensegment():
             templist.append(digitlist[ch])
         for n in range(5):
             sevenseg = [tup[n] for tup in templist]
-            print(sevenseg)
+            print(" ".join(sevenseg))
             
     else: print("invalid entry")
 
