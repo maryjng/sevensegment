@@ -2,6 +2,7 @@ digitList = [("###", "# #", "# #", "# #", "###"), (" # ", " # ", " # ", " # ", "
 
 def sevensegment():
     segment = input()
+    segment = segment.replace(" ", "")
     if segment.isdigit(): 
        templist = []
     
