@@ -12,3 +12,5 @@ def sevensegment():
             print(sevenseg)
             
     else: print("invalid entry")
+
+sevensegment()
